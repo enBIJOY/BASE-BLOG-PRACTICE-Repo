@@ -22,37 +22,38 @@
                             <span> <i class="lni lni-chevron-down"></i> </span>
                           </div>
                         </a>
-                        <ul class="sub-menu collapse" id="sub-nav">
+                        <!-- <ul class="sub-menu collapse" id="sub-nav">
                           <li><a href="index.html" class="active">Home Style One</a></li>
                           <li><a href="index-2.html">Home Style Two</a></li>
                           <li><a href="index-3.html">Home Style Three</a></li>
-                        </ul>
+                        </ul> -->
                       </li>
                       <li class="nav-item">
                         <a class="page-scroll" href="#0"  data-toggle="collapse" data-target="#sub-nav2" aria-controls="sub-nav2"
-                        aria-expanded="false" aria-label="Toggle navigation">Pages
+                        aria-expanded="false" aria-label="Toggle navigation">Blogs
                           <div class="sub-nav-toggler">
                             <span> <i class="lni lni-chevron-down"></i> </span>
                           </div>
                         </a>
                         <ul class="sub-menu collapse" id="sub-nav2">
-                          <li><a href="about-page.html">About Page</a></li>
-                          <li><a href="team-page.html">Team Page</a></li>
+                          <li><a href="about-page.html">Sports</a></li>
+                          <li><a href="team-page.html">Technology</a></li>
+                          <li><a href="single-blog.html">Nature</a></li>
+                          <li><a href="pricing-page.html">Political</a></li>
                           <li><a href="blog.html">Blog Page</a></li>
-                          <li><a href="single-blog.html">Blog Single Page</a></li>
-                          <li><a href="pricing-page.html">Pricing Page</a></li>
-                          <li><a href="testimonial-page.html">Testimonial Page</a></li>
                         </ul>
                       </li>
                       <li class="nav-item">
                         <a class="page-scroll" href="about-page.html">About Us</a>
                       </li>
                       <li class="nav-item">
-                        <a class="page-scroll" href="pricing-page.html">Pricing</a>
-                      </li>
-                      <li class="nav-item">
                         <a class="page-scroll" href="contact-page.html">Contact</a>
                       </li>
+                      <li class="nav-item d-flex align-items-center border border-dark rounded px-2 ms-3">
+                            <a class="nav-link px-2" href="{{('login')}}">Login</a>
+                            <span class="text-muted">|</span>
+                            <a class="nav-link px-2" href="{{('register')}}">Sign-Up</a>
+                        </li>
                     </ul>
                     
                   </div>
