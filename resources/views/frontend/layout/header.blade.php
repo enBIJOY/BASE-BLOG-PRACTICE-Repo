@@ -1,5 +1,5 @@
 <header class="header header-4">
-        <div class="navbar-area">
+        <div class="navbar-area fixed-top">
           <div class="container">
             <div class="row align-items-center">
               <div class="col-lg-12">
@@ -7,7 +7,7 @@
                   <a class="navbar-brand" href="index.html">
                     <img src="{{('base/img/logo/logo.svg')}}" alt="Logo" />
                   </a>
-                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent4" aria-controls="navbarSupportedContent4" aria-expanded="false" aria-label="Toggle navigation">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent4" aria-controls="navbarSupportedContent4" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="toggler-icon"></span>
                     <span class="toggler-icon"></span>
                     <span class="toggler-icon"></span>
@@ -22,11 +22,11 @@
                             <span> <i class="lni lni-chevron-down"></i> </span>
                           </div>
                         </a>
-                        <!-- <ul class="sub-menu collapse" id="sub-nav">
+                        <ul class="sub-menu collapse" id="sub-nav">
                           <li><a href="index.html" class="active">Home Style One</a></li>
                           <li><a href="index-2.html">Home Style Two</a></li>
                           <li><a href="index-3.html">Home Style Three</a></li>
-                        </ul> -->
+                        </ul>
                       </li>
                       <li class="nav-item">
                         <a class="page-scroll" href="#0"  data-toggle="collapse" data-target="#sub-nav2" aria-controls="sub-nav2"
