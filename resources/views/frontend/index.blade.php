@@ -159,7 +159,8 @@
                   </p>
                 </div>
 
-                <form>
+                <form id="newsletterForm">
+                  @csrf
                   <div class="row g-3 align-items-center">
                     
                     <!-- Name -->
@@ -187,8 +188,8 @@
                   <div class="form-text mt-4">
                     We respect your privacy. We ensure your safety.
                   </div>
+                  <div id="responseMessage" class="mt-3"></div>
                 </form>
-
               </div>
             </div>
           </div>

@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PagesController;
-
+use App\Http\Controllers\NewsletterController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -45,3 +45,5 @@ Route::get('sport/',[PagesController::class, 'sport'])->name('sport');
 Route::get('technology/',[PagesController::class, 'technology'])->name('technology');
 Route::get('nature/',[PagesController::class, 'nature'])->name('nature');
 Route::get('political/', [PagesController::class,'political'])->name('political');
+
+Route::post('/newsletter', [NewsletterController::class,'newsletter'])->name('newsletter');
