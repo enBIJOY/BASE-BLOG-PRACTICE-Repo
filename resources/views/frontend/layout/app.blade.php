@@ -69,5 +69,6 @@
     <script src="{{('base/js/wow.min.js')}}"></script>
     <script src="{{('base/js/main.js')}}"></script>
     <script src="{{ asset('js/newsletter.js') }}"></script>
+    <script src="{{ asset('js/contactform.js') }}"></script>
   </body>
 </html>

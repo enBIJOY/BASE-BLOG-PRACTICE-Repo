@@ -1,5 +1,5 @@
 <header class="header header-4">
-        <div class="navbar-area fixed-top">
+        <div class="navbar-area fixed-top bg-dark">
           <div class="container">
             <div class="row align-items-center">
               <div class="col-lg-12">
@@ -16,7 +16,7 @@
                   <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent4">
                     <ul id="nav4" class="navbar-nav ml-auto">
                       <li class="nav-item">
-                        <a class="page-scroll" href="{{ route('home') }}">Home</a>
+                        <a class="page-scroll text-white" href="{{ route('home') }}">Home</a>
                       </li>
                       <!-- <li class="nav-item">
                         <a class="page-scroll active" href="{{ route('home') }}"  data-toggle="collapse" data-target="#sub-nav" aria-controls="sub-nav"
@@ -32,7 +32,7 @@
                         </ul>
                       </li> -->
                       <li class="nav-item">
-                        <a class="page-scroll" href="{{ route('blog') }}"  data-toggle="collapse" data-target="#sub-nav2" aria-controls="sub-nav2"
+                        <a class="page-scroll  text-white" href="{{ route('blog') }}"  data-toggle="collapse" data-target="#sub-nav2" aria-controls="sub-nav2"
                         aria-expanded="false" aria-label="Toggle navigation">Blogs
                           <div class="sub-nav-toggler">
                             <span> <i class="lni lni-chevron-down"></i> </span>
@@ -47,15 +47,15 @@
                         </ul>
                       </li>
                       <li class="nav-item">
-                        <a class="page-scroll" href="{{ route('about') }}">About Us</a>
+                        <a class="page-scroll text-white" href="{{ route('about') }}">About Us</a>
                       </li>
                       <li class="nav-item">
-                        <a class="page-scroll" href="{{ route('contact') }}">Contact Us</a>
+                        <a class="page-scroll text-white" href="{{ route('contact') }}">Contact Us</a>
                       </li>
                       <li class="nav-item d-flex align-items-center border border-dark rounded px-2 ms-3">
-                            <a class="nav-link px-2" href="{{('login')}}">Login</a>
+                            <a class="nav-link px-2 text-white" href="{{('login')}}">Login</a>
                             <span class="text-muted">|</span>
-                            <a class="nav-link px-2" href="{{('register')}}">Sign-Up</a>
+                            <a class="nav-link px-2 text-white" href="{{('register')}}">Sign-Up</a>
                         </li>
                     </ul>
                     

@@ -14,7 +14,7 @@
                 </div>
                 <!-- Alert Message -->
                 <div id="alertBox" class="alert d-none"></div>
-                <form id="contactForm">
+                <form class="ajax-contact-form" data-action="{{ route('contactform') }}">
                     @csrf
                     <div class="mb-3">
                         <label class="form-label">Full Name</label>
@@ -22,7 +22,7 @@
                     </div>
                     <div class="mb-3">
                         <label class="form-label">Phone Number</label>
-                        <input type="email" placeholder="+88 01600-112211" name="email" class="form-control" required>
+                        <input type="text" placeholder="+88 01600-112211" name="phone" class="form-control" required>
                     </div>
                     <div class="mb-3">
                         <label class="form-label">Email Address</label>
@@ -35,6 +35,7 @@
                     <button type="submit" class="btn btn-primary w-100 mb-3">
                         Send Message
                     </button>
+                    <div class="responseMessage"></div>
                 </form>
             </div>
         </div>

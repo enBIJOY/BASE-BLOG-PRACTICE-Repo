@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PagesController;
 use App\Http\Controllers\NewsletterController;
+use App\Http\Controllers\ContactFormController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -47,3 +48,4 @@ Route::get('nature/',[PagesController::class, 'nature'])->name('nature');
 Route::get('political/', [PagesController::class,'political'])->name('political');
 
 Route::post('/newsletter', [NewsletterController::class,'newsletter'])->name('newsletter');
+Route::post('/contactform', [ContactFormController::class,'contactform'])->name('contactform');
