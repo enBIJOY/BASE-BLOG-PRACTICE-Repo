@@ -50,7 +50,7 @@
                         <a class="page-scroll" href="{{ route('about') }}">About Us</a>
                       </li>
                       <li class="nav-item">
-                        <a class="page-scroll" href="{{ route('contact') }}">Contact</a>
+                        <a class="page-scroll" href="{{ route('contact') }}">Contact Us</a>
                       </li>
                       <li class="nav-item d-flex align-items-center border border-dark rounded px-2 ms-3">
                             <a class="nav-link px-2" href="{{('login')}}">Login</a>
