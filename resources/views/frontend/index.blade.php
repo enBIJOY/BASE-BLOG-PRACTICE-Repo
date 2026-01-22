@@ -151,30 +151,25 @@
           <div class="col-md-8">
             <div class="card shadow-sm">
               <div class="card-body p-4">
-                
                 <div class="text-center mb-4">
                   <h3 class="mb-2">Join Us</h3>
                   <p class="text-muted mb-0">
                     Get the latest updates and offers straight to your inbox.
                   </p>
                 </div>
-
-                <form id="newsletterForm">
+                <form class="ajax-form" data-action="{{ route('newsletter') }}">
                   @csrf
                   <div class="row g-3 align-items-center">
-                    
                     <!-- Name -->
                     <div class="col-md-4">
-                      <label for="name" class="form-label">Full Name</label>
-                      <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                        <label class="form-label">Full Name</label>
+                        <input type="text" class="form-control" name="name" placeholder="Enter Your Name" required>
                     </div>
-
                     <!-- Email -->
                     <div class="col-md-5">
-                      <label for="email" class="form-label">Email Address</label>
-                      <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                        <label class="form-label">Email Address</label>
+                        <input type="email" class="form-control" name="email" placeholder="Enter Your Email" required>
                     </div>
-
                     <!-- Submit -->
                     <div class="col-md-3 d-grid">
                       <label class="form-label d-block">&nbsp;</label>
@@ -182,9 +177,7 @@
                         Subscribe
                       </button>
                     </div>
-
                   </div>
-
                   <div class="form-text mt-4">
                     We respect your privacy. We ensure your safety.
                   </div>

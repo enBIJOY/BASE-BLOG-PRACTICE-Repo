@@ -39,7 +39,15 @@
                 <p class="col-lg-10 fs-4">Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
             </div>
             <div class="col-md-10 mx-auto col-lg-5">
-                <form class="p-4 p-md-5 border rounded-3 bg-light">
+                <form class="ajax-form" data-action="{{ route('newsletter') }}">
+                    @csrf
+                    <input type="text" name="name" />
+                    <input type="email" name="email" />
+                    <button type="submit">Subscribe</button>
+                    <div class="responseMessage"></div>
+                </form>
+                <!-- <form class="ajax-form" data-action="{{ route('newsletter') }}">
+                    @csrf
                     <div class="form-floating mb-3">
                         <input type="name" class="form-control" id="floatingInput" placeholder="Tareq bil">
                         <label for="floatingInput">Full Name</label>
@@ -57,7 +65,8 @@
                         <button class="w-100 btn btn-lg btn-primary" type="submit">submit</button>
                         <hr class="my-4">
                         <small class="text-muted">By clicking submit, you agree to the terms of use.</small>
-                </form>
+                    <div class="responseMessage mt-3"></div>
+                </form> -->
             </div>
         </div>
     </div>
