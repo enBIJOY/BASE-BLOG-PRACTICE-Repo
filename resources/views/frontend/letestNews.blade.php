@@ -1,18 +1,16 @@
 @extends('frontend.layout.app')
-@section('title','Natural Page')
+@section('title','Blog Page')
 @section('content')
 
-<main>
 <section class="pt-5 text-center container">
     <div class="row py-lg-5">
       <div class="col-lg-6 col-md-8 mx-auto">
-        <h1 class="fw-light mb-2">Geography News</h1>
-        <p class="lead text-muted">Scientists tracking Earth’s water from space discovered that El Niño and La Niña are synchronizing floods and droughts across continents. When these climate cycles intensify, far-apart regions can become unusually wet.</p>
+        <h1 class="fw-light">Letest News</h1>
+        <p class="lead text-muted">Global markets stabilized as tech stocks rose, Bangladesh advanced infrastructure projects, sports leagues resumed, climate talks continued, and businesses embraced AI, signaling cautious optimism amid geopolitical and economic uncertainty worldwide.</p>
       </div>
     </div>
-</section>
+  </section>
 
-<section>
   <div class="album py-5 bg-light">
     <div class="container">
 
@@ -65,7 +63,6 @@
       </div>
     </div>
   </div>
-</section>
 
 </main>
 

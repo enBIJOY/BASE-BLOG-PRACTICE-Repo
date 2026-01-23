@@ -30,6 +30,9 @@ class PagesController extends Controller
     public function contact (){
         return view('frontend.contact');
     }
+    public function letestNews (){
+        return view('frontend.letestNews');
+    }
 
 
     public function xmltext (){

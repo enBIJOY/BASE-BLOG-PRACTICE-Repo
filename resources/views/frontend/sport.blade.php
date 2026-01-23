@@ -8,7 +8,7 @@
   <section class="pt-5 text-center container">
       <div class="row py-lg-5">
         <div class="col-lg-6 col-md-8 mx-auto">
-          <h1 class="fw-light mb-2">Geography News</h1>
+          <h1 class="fw-light mb-2">Sports News</h1>
           <p class="lead text-muted">Scientists tracking Earth’s water from space discovered that El Niño and La Niña are synchronizing floods and droughts across continents. When these climate cycles intensify, far-apart regions can become unusually wet.</p>
         </div>
       </div>
@@ -27,8 +27,7 @@
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Read more</button>
                   </div>
                   <small class="text-muted">9 mins</small>
                 </div>
@@ -43,8 +42,7 @@
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Read more</button>
                   </div>
                   <small class="text-muted">9 mins</small>
                 </div>
@@ -59,8 +57,7 @@
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Read more</button>
                   </div>
                   <small class="text-muted">9 mins</small>
                 </div>

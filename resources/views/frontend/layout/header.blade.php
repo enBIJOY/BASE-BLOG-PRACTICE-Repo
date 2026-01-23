@@ -43,7 +43,7 @@
                           <li><a href="{{ route('technology') }}">Technology news</a></li>
                           <li><a href="{{ route('nature') }}">Nature news</a></li>
                           <li><a href="{{ route('political') }}">Political news</a></li>
-                          <li><a href="{{ route('blog') }}">Letest News</a></li>
+                          <li><a href="{{ route('letestNews') }}">Letest News</a></li>
                         </ul>
                       </li>
                       <li class="nav-item">

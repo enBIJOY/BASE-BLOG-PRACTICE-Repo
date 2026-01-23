@@ -38,14 +38,15 @@ Route::middleware([
 });
 
 
-Route::get('home/',[PagesController::class, 'home'])->name('home');
-Route::get('blog/',[PagesController::class, 'blog'])->name('blog');
-Route::get('about/',[PagesController::class, 'about'])->name('about');
-Route::get('contact/',[PagesController::class, 'contact'])->name('contact');
-Route::get('sport/',[PagesController::class, 'sport'])->name('sport');
-Route::get('technology/',[PagesController::class, 'technology'])->name('technology');
-Route::get('nature/',[PagesController::class, 'nature'])->name('nature');
-Route::get('political/', [PagesController::class,'political'])->name('political');
+Route::get('/home',[PagesController::class, 'home'])->name('home');
+Route::get('/blog',[PagesController::class, 'blog'])->name('blog');
+Route::get('/letestNews',[PagesController::class, 'letestNews'])->name('letestNews');
+Route::get('/about',[PagesController::class, 'about'])->name('about');
+Route::get('/contact',[PagesController::class, 'contact'])->name('contact');
+Route::get('/sport',[PagesController::class, 'sport'])->name('sport');
+Route::get('/technology',[PagesController::class, 'technology'])->name('technology');
+Route::get('/nature',[PagesController::class, 'nature'])->name('nature');
+Route::get('/political', [PagesController::class,'political'])->name('political');
 
 Route::post('/newsletter', [NewsletterController::class,'newsletter'])->name('newsletter');
 Route::post('/contactform', [ContactFormController::class,'contactform'])->name('contactform');
