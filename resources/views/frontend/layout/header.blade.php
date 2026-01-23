@@ -4,7 +4,7 @@
             <div class="row align-items-center">
               <div class="col-lg-12">
                 <nav class="navbar navbar-expand-lg">
-                  <a class="navbar-brand" href="{{ route('home') }}">
+                  <a class="navbar-brand" href="{{ url('/') }}">
                     <img src="{{('base/img/logo/logo.svg')}}" alt="Logo" />
                   </a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent4" aria-controls="navbarSupportedContent4" aria-expanded="false" aria-label="Toggle navigation">
@@ -15,9 +15,9 @@
 
                   <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent4">
                     <ul id="nav4" class="navbar-nav ml-auto">
-                      <li class="nav-item">
+                      <!-- <li class="nav-item">
                         <a class="page-scroll text-white" href="{{ route('home') }}">Home</a>
-                      </li>
+                      </li> -->
                       <!-- <li class="nav-item">
                         <a class="page-scroll active" href="{{ route('home') }}"  data-toggle="collapse" data-target="#sub-nav" aria-controls="sub-nav"
                         aria-expanded="false" aria-label="Toggle navigation">Home
