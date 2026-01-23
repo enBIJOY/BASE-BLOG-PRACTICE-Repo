@@ -2,60 +2,58 @@
 
 @section('title','Base-Blog-Home')
 @section('content')
-<div class="p-2 mt-5 text-center">
+<div class="p-2 mt-5">
   <!-- <h1>Blog Project Practice!</h1> -->
 </div>
 
 <div class="container-fluid p-0">
-  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="{{('base/img/carousel/p12.jpg')}}" class="d-block w-100" alt="...">
+        <img src="{{('base/img/carousel/p0.png')}}" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h2 class="text-warning">First slide label</h2>
-          <p>Some representative placeholder content for the first slide. Some representative for the first slide.<h4>Some representative placeholder</h4> content for the first slide.Some representative placeholder content for the first slide.Some representative placeholder content for the first slide.Some representative placeholder content for the first slide.</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="{{('base/img/carousel/p10.jpg')}}" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h2 class="text-warning">First slide label</h2>
-          <p>Some representative placeholder content for the first slide. Some representative for the first slide.<h4>Some representative placeholder</h4> content for the first slide.Some representative placeholder content for the first slide.Some representative placeholder content for the first slide.Some representative placeholder content for the first slide.</p>
+          <h2 class="text-warning my-4">Membership</h2>
+          <ul>
+            <li>
+              <h5 class="text-white mb-2">Membership Makes you Pro of the webpage. You can try your Free Trial</h5>
+            </li>
+            <li>
+              <h5 class="text-white mb-4">Some representative for the first slide</h5>
+            </li>
+          </ul>
+          <button type="button" class="btn btn-outline-warning">Get Now</button>
         </div>
       </div>
       <div class="carousel-item">
         <img src="{{('base/img/carousel/p3.jpg')}}" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h2 class="text-warning">First slide label</h2>
-          <p>Some representative placeholder content for the first slide. Some representative for the first slide.<h4>Some representative placeholder</h4> content for the first slide.Some representative placeholder content for the first slide.Some representative placeholder content for the first slide.Some representative placeholder content for the first slide.</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="{{('base/img/carousel/p4.jpg')}}" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h2 class="text-warning">First slide label</h2>
-          <p>Some representative placeholder content for the first slide. Some representative for the first slide.<h4>Some representative placeholder</h4> content for the first slide.Some representative placeholder content for the first slide.Some representative placeholder content for the first slide.Some representative placeholder content for the first slide.</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="{{('base/img/carousel/p12.jpg')}}" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h2 class="text-warning">First slide label</h2>
-          <p>Some representative placeholder content for the first slide. Some representative for the first slide.<h4>Some representative placeholder</h4> content for the first slide.Some representative placeholder content for the first slide.Some representative placeholder content for the first slide.Some representative placeholder content for the first slide.</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="{{('base/img/carousel/p6.jpg')}}" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h2 class="text-warning">First slide label</h2>
-          <p>Some representative placeholder content for the first slide. Some representative for the first slide.<h4>Some representative placeholder</h4> content for the first slide.Some representative placeholder content for the first slide.Some representative placeholder content for the first slide.Some representative placeholder content for the first slide.</p>
+          <h2 class="text-warning my-2">News Is Key</h2>
+          <ul>
+            <li>
+              <h5 class="text-white mb-0">highest Circulated Newspaper</h5>
+            </li>
+            <li>
+              <h5 class="text-white mb-0">Most Popular English News Paper</h5>
+            </li>
+            <li>
+              <h5 class="text-white mb-0">Most Popular English News Paper</h5>
+            </li>
+            <li>
+              <h5 class="text-white mb-3">News, sports, entertainment and top news</h5>
+            </li>
+          </ul>
+          <button type="button" class="btn btn-outline-warning">Go To News Paper</button>
         </div>
       </div>
       <div class="carousel-item">
         <img src="{{('base/img/carousel/p7.jpg')}}" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h2 class="text-warning">First slide label</h2>
-          <p>Some representative placeholder content for the first slide. Some representative for the first slide.<h4>Some representative placeholder</h4> content for the first slide.Some representative placeholder content for the first slide.Some representative placeholder content for the first slide.Some representative placeholder content for the first slide.</p>
+          <h4 class="info my-3">Continusly Asked Questions (FAQs)</h4>
+          <p>How we find news?</p>
+          <p>Our Office Address?</p>
+          <p>Office Location?</p>
+          <p>Whats Next news?</p>
+          <p>Blog contect Writer?</p>
         </div>
       </div>
     </div>
@@ -69,6 +67,7 @@
     </button>
   </div>
 </div>
+
 
 
 
