@@ -377,7 +377,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./docs/faq.html" class="nav-link">
+                <a href="{{ route('allUser') }}" class="nav-link">
                   <i class="nav-icon bi bi-caret-right"></i>
                   <p>All User</p>
                 </a>

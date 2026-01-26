@@ -4,6 +4,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PagesController;
 use App\Http\Controllers\NewsletterController;
 use App\Http\Controllers\ContactFormController;
+use App\Http\Controllers\UserController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -57,6 +59,10 @@ Route::post('/contactform', [ContactFormController::class,'contactform'])->name(
 Route::middleware(['auth'])->prefix('admin')->group(function () {
     Route::get('/allContact', [ContactFormController::class, 'allContact'])
         ->name('allContact');
+});
+Route::middleware(['auth'])->prefix('admin')->group(function () {
+    Route::get('/allUser', [UserController::class, 'allUser'])
+        ->name('allUser');
 });
 
 
