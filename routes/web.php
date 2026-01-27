@@ -4,7 +4,6 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PagesController;
 use App\Http\Controllers\NewsletterController;
 use App\Http\Controllers\ContactFormController;
-use App\Http\Controllers\UserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -51,20 +50,7 @@ Route::get('/nature',[PagesController::class, 'nature'])->name('nature');
 Route::get('/political', [PagesController::class,'political'])->name('political');
 
 Route::post('/newsletter', [NewsletterController::class,'newsletter'])->name('newsletter');
-Route::middleware(['auth'])->prefix('admin')->group(function () {
-    Route::get('/newsletters', [NewsletterController::class, 'newsletters'])
-        ->name('newsletters');
-});
 Route::post('/contactform', [ContactFormController::class,'contactform'])->name('contactform');
-Route::middleware(['auth'])->prefix('admin')->group(function () {
-    Route::get('/allContact', [ContactFormController::class, 'allContact'])
-        ->name('allContact');
-});
-Route::middleware(['auth'])->prefix('admin')->group(function () {
-    Route::get('/allUser', [UserController::class, 'allUser'])
-        ->name('allUser');
-});
-
 
 Route::get('/xmltext',[PagesController::class, 'xmltext'])->name('xmltext');
 
