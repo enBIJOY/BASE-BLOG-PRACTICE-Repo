@@ -8,9 +8,15 @@
         <h1 class="fw-light text-center">Blog Page</h1>
         <p class="lead text-muted mt-2">Bangladesh advanced infrastructure projects, sports leagues resumed, climate talks continued, and businesses</p>
       </div>
-        <p class="lead text-muted mt-5">Global markets stabilized as tech stocks rose, Bangladesh advanced infrastructure projects, sports leagues resumed, climate talks continued, and businesses embraced AI, signaling cautious optimism amid geopolitical and economic uncertainty worldwide. Global markets stabilized as tech stocks rose, Bangladesh advanced infrastructure projects, sports leagues resumed, climate talks continued, and businesses embraced AI, signaling cautious optimism amid geopolitical and economic uncertainty worldwide.</p>
+        <!-- <p class="lead text-muted mt-5">Global markets stabilized as tech stocks rose, Bangladesh advanced infrastructure projects, sports leagues resumed, climate talks continued, and businesses embraced AI, signaling cautious optimism amid geopolitical and economic uncertainty worldwide. Global markets stabilized as tech stocks rose, Bangladesh advanced infrastructure projects, sports leagues resumed, climate talks continued, and businesses embraced AI, signaling cautious optimism amid geopolitical and economic uncertainty worldwide.</p> -->
     </div>
   </section>
+
+  <div class="hero-slider">
+    <div><img src="{{ asset('base/img/carousel/p10.jpg') }}"></div>
+    <div><img src="{{ asset('base/img/carousel/p3.jpg') }}"></div>
+    <div><img src="{{ asset('base/img/carousel/p12.jpg') }}"></div>
+  </div>
 
   <div class="album py-5 bg-light">
     <div class="container">
@@ -64,7 +70,19 @@
       </div>
     </div>
   </div>
-
+  @push('scripts')
+    <script>
+    $(function () {
+      $('.hero-slider').slick({
+        autoplay: true,
+        autoplaySpeed: 2000,
+        dots: true,
+        arrows: true,
+        fade: false
+      });
+    });
+    </script>
+  @endpush
 </main>
 
 @endsection
