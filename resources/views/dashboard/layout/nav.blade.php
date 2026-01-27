@@ -155,7 +155,9 @@
                   class="user-image rounded-circle shadow"
                   alt="User Image"
                 />
-                <span class="d-none d-md-inline">Alexander Pierce</span>
+                <span class="d-none d-md-inline">
+                    {{ auth()->user()->name }}
+                </span>
                 <i class="nav-arrow bi bi-chevron-down"></i>
               </a>
               <ul class="dropdown-menu dropdown-menu-lg dropdown-menu-end">
@@ -166,10 +168,12 @@
                     class="rounded-circle shadow"
                     alt="User Image"
                   />
-                  <p>
-                    Alexander Pierce - Web Developer
-                    <small>Member since Nov. 2023</small>
-                  </p>
+                    <p>
+                      {{ auth()->user()->name }}
+                      <small>
+                          Member since {{ auth()->user()->created_at->format('M Y') }}
+                      </small>
+                    </p>
                 </li>
                 <!--end::User Image-->
                 <!--begin::Menu Body-->
