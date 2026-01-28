@@ -31,7 +31,7 @@
               id="navigation"
             >
               
-                <a href="{{ url('dashboard') }}" class="nav-link active">
+                <a href="#" class="nav-link active">
                   <p> 
                     <strong>
                         Dashboard
